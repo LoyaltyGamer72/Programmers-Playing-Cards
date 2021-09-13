@@ -2,6 +2,6 @@ Card = {
   rank = 2,
   suit = "hearts",
   print = function (self)
-    print rank..suit
+    print( self.rank .. self.suit )
   end
 }
